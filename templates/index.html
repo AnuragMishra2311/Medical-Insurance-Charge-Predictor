@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <br><br>
+  <title>Insurance Predictor</title>
+</head>
+
+<body style="background-color:rgb(170, 34, 163);">
+ <div class="login">
+
+  <h1 align="center">Estimate Your Health Insurance Charge 👨‍⚕️</h1>
+  <br><br>
+     <!-- Main Input For Receiving Query to our ML -->
+
+    <form align="center" action="{{ url_for('predict')}}"method="post">
+      
+        <input type="number" name="age" placeholder="Age" required="required" />
+       <br><br>
+       <input type="number" step=any name="bmi" placeholder="Bmi" required="required" />
+       <br><br>
+       <input type="number" name="children" placeholder="Number of Childrens" required="required" />
+       <br><br>
+
+      <select name = "gender">
+        <option value = 0 selected>Female</option>
+        <option value = 1>Male</option>
+      </select>
+      <br><br>
+
+      <select name = "smoker">
+        <option value = 0 selected>Non Smoker</option>
+        <option value = 1 >Smoker</option>
+      </select>
+
+      <br><br><br>
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   
+   <br>
+   <h2 align="center">{{ prediction_text }}</h2>
+
+ </div>
+
+
+</body>
+</html>
