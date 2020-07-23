@@ -4,7 +4,7 @@
 ### Link to notebook: https://nbviewer.jupyter.org/github/AnuragMishra2311/Medical-Insurance-Charge-Predictor/blob/master/Model.ipynb
 
 
-## Model Deployed at : https://health-insurance-predictor.herokuapp.com/
+#### Model Deployed at : https://health-insurance-predictor.herokuapp.com/
 
 ## Data Desription
 | Columns | Description | 
