@@ -25,4 +25,4 @@
 
 Random Forest is the best fit for the model.
 
-![](images/a.png)
+![](images/w.png) ![](images/x.png)
