@@ -1,5 +1,10 @@
 # Health-Insurance-Charge-Predictor
 
+# Data Desription
+| Columns | Description | 
+| :---: |:--- |  
+|Age |Age of primary beneficiary |
+
 ## Score of different Models
 | Model | Cross Val Score |
 | :---:  | :---:  |
