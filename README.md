@@ -24,3 +24,5 @@
 | XGBoost | 0.82|
 
 Random Forest is the best fit for the model.
+
+![](images/a.png)
