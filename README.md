@@ -1,6 +1,6 @@
 # Health-Insurance-Charge-Predictor
 
-# Data Desription
+## Data Desription
 | Columns | Description | 
 | :---: |:--- |  
 |Age |Age of primary beneficiary |
@@ -10,6 +10,8 @@
 |Smoker | Smoking |
 |Region | Residential Area of beneficary |
 |Charges | Cost of Insurance|
+
+
 ## Score of different Models
 | Model | Cross Val Score |
 | :---:  | :---:  |
@@ -20,3 +22,5 @@
 | **Random Forest** | **0.84**|
 |Decision Tree| 0.66|
 | XGBoost | 0.82|
+
+Random Forest is the best fit for the model.
