@@ -4,7 +4,8 @@
 | Columns | Description | 
 | :---: |:--- |  
 |Age |Age of primary beneficiary |
-
+|Sex| Gender of beneficary|
+|BMI| Body Mass Index of beneficary|
 ## Score of different Models
 | Model | Cross Val Score |
 | :---:  | :---:  |
