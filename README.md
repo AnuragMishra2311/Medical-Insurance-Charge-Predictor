@@ -1,4 +1,4 @@
-# Health-Insurance-Charge-Predictor :man_health_worker:
+# Medical-Insurance-Charge-Predictor :man_health_worker:
 
 
 ### Link to notebook: https://nbviewer.jupyter.org/github/AnuragMishra2311/Medical-Insurance-Charge-Predictor/blob/master/Model.ipynb
