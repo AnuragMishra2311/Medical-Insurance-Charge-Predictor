@@ -1,5 +1,6 @@
 # Health-Insurance-Charge-Predictor
 
+## Score of different Models
 | Model | Cross Val Score |
 | :---:  | :---:  |
 | Linear Regression |  0.72 |
