@@ -27,7 +27,7 @@ def predict():
     prediction=model.predict(final_features)
     output=prediction[0]
     
-    return render_template('index.html',prediction_text='Your Insurance cost will be around {} bucks'.format(int(output))) 
+    return render_template('index.html',prediction_text='Your Insurance cost will be around {} bucks 💵'.format(int(output))) 
         
 if __name__=='__main__':
     app.run(debug=True)
